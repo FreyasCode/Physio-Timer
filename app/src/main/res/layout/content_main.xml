@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/imgGIF"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_x="64dp"
+        android:layout_y="188dp"
+        android:background="#fafafa"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtShowTime"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="189dp"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="180sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnStart"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="150dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="-93dp"
+        android:layout_x="113dp"
+        android:layout_y="456dp"
+        android:background="#ff7f50"
+        android:text="Start"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="474dp" />
+
+    <TextView
+        android:id="@+id/txtText"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="100dp"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="Welcome"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgCheck"
+        android:layout_width="237dp"
+        android:layout_height="224dp"
+        android:layout_x="64dp"
+        android:layout_y="193dp"
+        android:gravity="center" />
+
+
+</AbsoluteLayout>
